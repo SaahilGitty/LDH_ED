@@ -1,0 +1,61 @@
+Terms & Conditions
+Accuracy
+Every effort is taken to ensure that the information contained in this website is both accurate and complete.
+
+Availability
+We cannot guarantee uninterrupted access to this website, or the sites to which it links. We accept no responsibility for any loss, disruption or damage arising from the lack of access to information or broken links.
+
+Cookies
+Cookies are small text files that your browser stores when you visit some websites and will be sent back to the website each time you request a page. Most websites use cookies in order to improve a user’s experience by allowing that website to ‘remember’ you. This can be for the duration of your visit (using a ‘session cookie’) or for repeat visits (using a ‘persistent cookie’).
+
+At the Luton & Dunstable University Hospital we make use of cookies to help manage our website, make our website easier to use and support the provision of relevant information and functionality. This is done to improve your visitor experience, as well as provide us with information about how our website is used so that we can make sure it is as relevant and as accurate as possible. By using our website you agree to the use of cookies as described in this Cookie Policy. You can disable cookies and certain cookies may be set as soon as you visit our website. Also you can manage or remove cookies using your internet browser settings – see below.
+
+Name of Cookie	Type of Cookie	Reason for Cookie	Description
+_UTMZ	1st/Persistent	Analytics	Extracts the following information- where the visitor came from,
+what search engine they used, what link they clicked on, what
+keyword they used and where in the world they accessed a
+website.
+_UTMA	1st/Persistent	Analytics	Keeps track of the number of times a visitor has been to the site, when their first visit and last visits were.
+_UTMC	1st/Persistent	Analytics	Works with UTMB_ to determine how long the visitor spends on
+the site.
+_UTMB	1st/Persistent	Analytics	Works with UTMC_ to determine how long the visitor spends on
+the site.
+Managing Cookies: – Disabling
+Internet Explorer
+Google Chrome
+Firefox
+Safari
+
+Mobiles: – Disabling
+Android
+Safari
+Windows Phone
+Blackberry
+
+What happens if you disable cookies from our site?
+Preventing cookies is likely to impact the functionality or performance of our website and could stop you from using certain services provided through it. If you choose to disable cookies, we cannot guarantee how the operation of our website will perform during your visit. It will also affect our ability to improve our website, making changes to user preferences.
+
+Information is collected by Google Analytics which collects information on pages visited, length of visit, URL and search terms of referring sites, your browser’s capabilities, and your IP address.
+
+Copyright
+The material on this site is subject to copyright protection of The Luton and Dunstable University Hospital NHS Foundation Trust unless otherwise indicated. The Trust’s copyright protected material (other than the Royal Arms and departmental or agency logos) may be reproduced free of charge in any format or medium for research, private study or for internal circulation within an organisation. This is subject to the material being reproduced accurately and not used in a misleading context. Where any of The Luton and Dunstable Hospital NHS Foundation Trust’s copyright items on this site are being republished or copied to others (either wholly or partly), the source of the material must be identified and the copyright status acknowledged.
+Rather than copy or use information on this website we would prefer users to create hypertext links to this site.
+
+The permission to reproduce The Trust’s protected material does not extend to any material on this site that is identified as being the copyright of a third party. Authorisation to reproduce such material must be obtained from the copyright holders.
+
+Intellectual property
+The names, images and logos identifying The Luton and Dunstable University Hospital NHS Foundation Trust are the proprietary marks of the NHS. Copying our logos or any third party logos accessed via this website is not permitted without the prior approval of the relevant copyright owner.
+
+Links policy
+All hyperlinks from this website are provided for information and convenience only. elected using our links policy. Links are provided for information and convenience only. We cannot accept responsibility for the sites linked to, or the information found there. A link does not imply an endorsement of a site; coversely, the absence of links to a particular website does not imply lack of endorsement.
+
+You do not have to ask permission to link directly to pages hosted on this site. However, we do not permit our pages to be loaded into frames on your site. The pages must load into the user’s entire window. You must not use
+the NHS logo to link to our site without prior permission.
+
+Privacy and data protection
+The Luton and Dunstable University Hospital NHS Foundation Trust website does not store or capture personal information, but does utilise various cookies to help measure traffic and make improvements to the website.
+
+The Trust website will only record your personal information such as your name, address, hospital number, NHS number or email address if volunteered to us by you (for example if you want to change your hospital appointment). Such information shall be treated as private and confidential.
+
+Virus protection
+We make every effort to check and test material at all stages of production. It is always wise for you to run an anti-virus programme on all material downloaded from the internet. We cannot accept any responsibility for any loss, disruption or damage to your data or your computer system that may occur while using material derived from this website.
