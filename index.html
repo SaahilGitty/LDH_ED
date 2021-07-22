@@ -18,8 +18,8 @@
     </style>
   </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #a3c02a;">
-        <div class="container-fluid" style="background-color: #a3c02a;">
+    <nav class="navbar navbar-expand-lg navbar-dark" style="position: fixed; top:999; z-index: 99999; width:100%;background-color: #a3c02a; border-bottom-left-radius: 30%; border-bottom-right-radius: 30%; text-align: center;">
+        <div class="container-fluid" style="background-color: #a3c02a; border-bottom-left-radius: 30%; border-bottom-right-radius: 30%; padding-right:15%; padding-left: 15%; text-align: center;">
           <a class="navbar-brand" href="#"><img height="50" width="80" src="luton-dunstable-logo.png" alt="Luton & Dunstable University Hospital"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -39,16 +39,17 @@
                 <a class="nav-link" href="#pResources">Patient Resources  <i class="bi bi-envelope-open"></i></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#ed">ED Beats  <i class="bi bi-newspaper"></i></a>
+                <a class="nav-link" href="#edbeats">ED Beats  <i class="bi bi-newspaper"></i></a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">RCEM Alerts  <img src="[removal.ai]_tmp-60f7fe2401d35.png" alt="" height="25" width="25"></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#caseomonth">Case of the month</a>
+                <a class="nav-link" href="#caseomonth" title="Case of the month">COTM ☣</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#directory">Directory</a>
+                <a class="nav-link" href="#directory">Directory<br>&#9742;
+                </a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#contact">Contact Us <i class="bi bi-telephone-fill"></i></a>
@@ -57,6 +58,8 @@
           </div>
         </div>
       </nav>
+      <br>
+      <br>
       <div class="container-fluid" style="padding: 50px; background-color:lightgrey;" data-aos="fade-in">
         <h1>Welcome from the Luton and Dunstable ED Team!</h1>
         <p>The Luton and Dunstable University Hospital’s Emergency Department operates 24 hours a day, 365 days a year and provides a comprehensive emergency service for Luton, South Bedfordshire and parts of Hertfordshire – a total population of almost 400,000.
@@ -100,126 +103,232 @@
           The SDEC is also a reception area for further assessment of patients who have been seen initially within the ED. It is staffed 24 hours a day by experienced medical and nursing staff, including three dedicated Acute Care Physicians, who also provide Consultant cover to the Medical Short stay unit and Ambulatory Care Centre.</p>
       </div>
       <div class="edTeam" style="padding:30px;">
-  
       <h3>Our ED Team</h3>
       <hr>
       <br>
-      <div class="row">
-        <div class="col-sm-3" data-aos="flip-right">
-          <div class="card">
-            <img src="dkirby.png" height="300" width="100%" alt="" class="card-top">
-            <div class="card-body">
-              <h5 class="card-title">David Kirby</h5>
-              <p class="card-text">Emergency Medicine & PEM Consultant</p>
-              <p class="card-text">Medical Director</p>
+      <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="row">
+              <div class="col-sm-3" data-aos="flip-right">
+                <div class="card">
+                  <img src="dkirby.png" height="300" width="100%" alt="" class="card-top">
+                  <div class="card-body">
+                    <h5 class="card-title">David Kirby</h5>
+                    <p class="card-text">Emergency Medicine & PEM Consultant</p>
+                    <p class="card-text">Medical Director</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-3" data-aos="flip-left">
+                <div class="card">
+                  <img src="https://www.icem21.com/img/speakers/dummy.jpg" alt="" class="card-top" height="300" width="100%" >
+                  <div class="card-body">
+                    <h5 class="card-title">Dr Gyorgyi Kamaras</h5>
+                    <p class="card-text">ED Consultant</p>
+                    <p class="card-text">Clinical Director</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-3" data-aos="flip-right">
+                <div class="card">
+                  <img src="https://cdn.pixabay.com/photo/2016/07/20/21/03/tux-1531289_960_720.png"  height="300" width="100%"  alt="" class="card-top">
+                  <div class="card-body">
+                    <h5 class="card-title">Dr Carly Farrow</h5>
+                    <p class="card-text">ED Consultant</p>
+                    <br>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-3" data-aos="flip-left">
+                <div class="card">
+                  <img src="https://www.icem21.com/img/speakers/dummy.jpg" height="300" width="100%" alt="" class="card-top">
+                  <div class="card-body">
+                    <h5 class="card-title">Dr Muniswamy Hemavathi</h5>
+                    <p class="card-text">Consultant</p>
+                    <br>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="col-sm-3" data-aos="flip-left">
-          <div class="card">
-            <img src="https://www.icem21.com/img/speakers/dummy.jpg" alt="" class="card-top" height="300" width="100%" >
-            <div class="card-body">
-              <h5 class="card-title">Dr Gyorgyi Kamaras</h5>
-              <p class="card-text">ED Consultant</p>
-              <p class="card-text">Clinical Director</p>
+          <div class="carousel-item">
+            <div class="row">
+              <div class="col-sm-3" data-aos="flip-right">
+                <div class="card">
+                  <img src="dkirby.png" height="300" width="100%" alt="" class="card-top">
+                  <div class="card-body">
+                    <h5 class="card-title">David Kirby</h5>
+                    <p class="card-text">Emergency Medicine & PEM Consultant</p>
+                    <p class="card-text">Medical Director</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-3" data-aos="flip-left">
+                <div class="card">
+                  <img src="https://www.icem21.com/img/speakers/dummy.jpg" alt="" class="card-top" height="300" width="100%" >
+                  <div class="card-body">
+                    <h5 class="card-title">Dr Gyorgyi Kamaras</h5>
+                    <p class="card-text">ED Consultant</p>
+                    <p class="card-text">Clinical Director</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-3" data-aos="flip-right">
+                <div class="card">
+                  <img src="https://cdn.pixabay.com/photo/2016/07/20/21/03/tux-1531289_960_720.png"  height="300" width="100%"  alt="" class="card-top">
+                  <div class="card-body">
+                    <h5 class="card-title">Dr Carly Farrow</h5>
+                    <p class="card-text">ED Consultant</p>
+                    <br>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-3" data-aos="flip-left">
+                <div class="card">
+                  <img src="https://www.icem21.com/img/speakers/dummy.jpg" height="300" width="100%" alt="" class="card-top">
+                  <div class="card-body">
+                    <h5 class="card-title">Dr Muniswamy Hemavathi</h5>
+                    <p class="card-text">Consultant</p>
+                    <br>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="col-sm-3" data-aos="flip-right">
-          <div class="card">
-            <img src="https://cdn.pixabay.com/photo/2016/07/20/21/03/tux-1531289_960_720.png"  height="300" width="100%"  alt="" class="card-top">
-            <div class="card-body">
-              <h5 class="card-title">Dr Carly Farrow</h5>
-              <p class="card-text">ED Consultant</p>
-              <br>
+          <div class="carousel-item">
+            <div class="row">
+        
+              <div class="col-sm-3" data-aos="flip-right">
+                <div class="card">
+                  <img src="https://www.icem21.com/img/speakers/dummy.jpg" alt="" class="card-top" height="300" width="100%" >
+                  <div class="card-body">
+                    <h5 class="card-title">Dr Dean Burns</h5>
+                    <p class="card-text">ED & ITU Consultant</p>
+                    <br>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-3" data-aos="flip-left">
+                <div class="card">
+                  <img src="atarique.jpeg"  height="300" width="100%"  alt="" class="card-top">
+                  <div class="card-body">
+                    <h5 class="card-title">Dr Aamir Tarique</h5>
+                    <p class="card-text">ED Consultant</p>
+                    <br>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-3" data-aos="flip-right">
+                <div class="card">
+                  <img src="https://www.icem21.com/img/speakers/dhinak.jpg"  height="300" width="100%"  alt="" class="card-top">
+                  <div class="card-body">
+                    <h5 class="card-title">Mr Subramanian Dhinakharan
+                    </h5>
+                    <p class="card-text">ED Consultant</p>
+                    <p class="card-text">Associate Undergraduate Tutor</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-3" data-aos="flip-left">
+                <div class="card">
+                  <img src="mvegas.jpeg"  height="300" width="100%"  alt="" class="card-top">
+                  <div class="card-body">
+                    <h5 class="card-title">
+                      Dr Manoj Viegas
+                    </h5>
+                    <p class="card-text">ED Consultant</p>
+                    <br>
+                  </div>
+                </div>
+              </div>
+              
+      
             </div>
           </div>
-        </div>
-        <div class="col-sm-3" data-aos="flip-left">
-          <div class="card">
-            <img src="https://www.icem21.com/img/speakers/dummy.jpg" height="300" width="100%" alt="" class="card-top">
-            <div class="card-body">
-              <h5 class="card-title">Dr Muniswamy Hemavathi</h5>
-              <p class="card-text">Consultant</p>
-              <br>
+          <div class="carousel-item">
+            <div class="row">
+              <div class="col-sm-3" data-aos="flip-right">
+                <div class="card">
+                  <img src="https://www.icem21.com/img/speakers/dummy.jpg"  height="300" width="100%"  alt="" class="card-top">
+                  <div class="card-body">
+                    <h5 class="card-title">Charlotte Whitehouse
+                    </h5>
+                    <p class="card-text">ED Consultant</p>
+                    <br>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-3" data-aos="flip-right">
+                <div class="card">
+                  <img src="massaria.jpeg"  height="300" width="100%"  alt="" class="card-top">
+                  <div class="card-body">
+                    <h5 class="card-title">Mohammed Asaria
+                    </h5>
+                    <p class="card-text">ED Consultant</p>
+                    <br>
+                  </div>
+                </div>
+              </div>
             </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
           </div>
         </div>
       </div>
+      
+      
       <br>
-      <div class="row">
+      
+      <br>
+      
+      <br>
+      <br>
+      <h2 style="margin-left: 50px;">ED Beats</h2>
+      <hr style="margin-left: 50px; margin-right: 50px;">
+      <div id="edbeats" style="padding:50px;">
+        <div class="row">
         
-        <div class="col-sm-3" data-aos="flip-right">
-          <div class="card">
-            <img src="https://www.icem21.com/img/speakers/dummy.jpg" alt="" class="card-top" height="300" width="100%" >
-            <div class="card-body">
-              <h5 class="card-title">Dr Dean Burns</h5>
-              <p class="card-text">ED & ITU Consultant</p>
-              <br>
+          <div class="col-sm-4" data-aos="flip-right">
+            <div class="card">
+              <iframe src="edbeats.pdf" frameborder="0" class="card-top" width="100%" height="600"></iframe>
+              <div class="card-body">
+                <h1 class="card-title">This Month on ED Beats</h1>
+                <p class="card-text">JULY '21</p>
+                <br>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="col-sm-3" data-aos="flip-left">
-          <div class="card">
-            <img src="atarique.jpeg"  height="300" width="100%"  alt="" class="card-top">
-            <div class="card-body">
-              <h5 class="card-title">Dr Aamir Tarique</h5>
-              <p class="card-text">ED Consultant</p>
-              <br>
+          <div class="col-sm-4" data-aos="flip-left">
+            <div class="card">
+              <iframe src="edbeatslastmon.pdf" frameborder="0" class="card-top" width="100%" height="600"></iframe>
+              <div class="card-body">
+                <h1 class="card-title">Last Month on ED Beats</h5>
+                  <p class="card-text">JUNE '21</p>
+                <br>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="col-sm-3" data-aos="flip-right">
-          <div class="card">
-            <img src="https://www.icem21.com/img/speakers/dhinak.jpg"  height="300" width="100%"  alt="" class="card-top">
-            <div class="card-body">
-              <h5 class="card-title">Mr Subramanian Dhinakharan
-              </h5>
-              <p class="card-text">ED Consultant</p>
-              <p class="card-text">Associate Undergraduate Tutor</p>
+          <div class="col-sm-4" data-aos="flip-right">
+            <div class="card">
+              <iframe src="edbeats2mon.pdf" frameborder="0" class="card-top" width="100%" height="600"></iframe>
+              <div class="card-body">
+                <h1 class="card-title">Two Months ago on ED Beats</h5>
+                <p class="card-text">MAY '21</p>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="col-sm-3" data-aos="flip-left">
-          <div class="card">
-            <img src="mvegas.jpeg"  height="300" width="100%"  alt="" class="card-top">
-            <div class="card-body">
-              <h5 class="card-title">
-                Dr Manoj Viegas
-              </h5>
-              <p class="card-text">ED Consultant</p>
-              <br>
-            </div>
-          </div>
-        </div>
-        
 
-      </div>
-      <br>
-      <div class="row">
-        <div class="col-sm-3" data-aos="flip-right">
-          <div class="card">
-            <img src="https://www.icem21.com/img/speakers/dummy.jpg"  height="300" width="100%"  alt="" class="card-top">
-            <div class="card-body">
-              <h5 class="card-title">Charlotte Whitehouse
-              </h5>
-              <p class="card-text">ED Consultant</p>
-              <br>
-            </div>
-          </div>
+          
+  
         </div>
-        <div class="col-sm-3" data-aos="flip-right">
-          <div class="card">
-            <img src="massaria.jpeg"  height="300" width="100%"  alt="" class="card-top">
-            <div class="card-body">
-              <h5 class="card-title">Mohammed Asaria
-              </h5>
-              <p class="card-text">ED Consultant</p>
-              <br>
-            </div>
-          </div>
-        </div>
-      </div>
       </div>
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
@@ -251,9 +360,7 @@
           </div>
         </div>
       </nav>
-      <div class="container-fluid" style="background-color:lightgrey;">
-
-      </div>
+      
     <script src="bootstrap.bundle.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
